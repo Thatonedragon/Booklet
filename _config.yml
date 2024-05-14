@@ -6,3 +6,21 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  hint:
+    title: Hint
+    color: grey-lt
+  important:
+    title: Important
+    color: green
+  note:
+    title: Note
+    color: grey-dk
+  def:
+    title: Définition
+    color: green
