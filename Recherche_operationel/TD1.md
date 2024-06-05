@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 4
+nav_order: 5
 title: TD1
 parent: Recherche operationel
 ---
@@ -12,9 +12,14 @@ parent: Recherche operationel
 # Correction
 
 
+| A   | B   | C   | D   | E   | F   | Fixes |
+| --- | --- | --- | --- | --- | --- | ----- |
+| /   | /   | /   | /   | 9A  | /   |       |
 
 
-La repose est 21
+
+
+La reponse est 21
 
 
 
