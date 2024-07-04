@@ -3,11 +3,32 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 #theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
-url: https://just-the-docs.github.io
 
+just_the_docs:
+  navigation_depth: 7
+  search_enabled: true
+  search_indexing: true
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+callouts:
+  note:
+    title: Note
+    color: purple
+
+mermaid:
+  version : "9.1.3"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
 
 
 callouts:
