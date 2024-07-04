@@ -1,8 +1,9 @@
 title: Booklet
 description: A starter template for a Jeykll site using the Just the Docs theme!
-#theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
+#remote_theme: pmarsceill/just-the-docs
 
+url: thatonedragon.github.io/Booklet
 
 just_the_docs:
   navigation_depth: 7
@@ -19,17 +20,7 @@ mermaid:
 
 # Plugins
 plugins:
-  - jekyll-remote-theme
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle
-  - vendor/cache
-  - vendor/gems
-  - vendor/ruby
-
+ - jekyll-default-layout
 
 callouts:
   warning:
