@@ -2,7 +2,7 @@
 layout: default
 nav_order: 2
 title: Rapport robotique
-parent: rapport
+parent: Rapports
 ---
 
 # Introduction
