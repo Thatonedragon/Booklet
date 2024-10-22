@@ -4,8 +4,46 @@ nav_order: 2
 title: Rapport Robotique
 parent: Rapports
 ---
-# Universal robots Préhenseur ventouse
 
+
+
+# Introduction
+
+Dans le cadre de notre cour de robotique a Unilasalle Amiens ex-ESIEE, par groupe de 3 à 4, nous nous efforçons de découvrir à la fois le bras robotique, son programme et toutes la documentation technique.
+Le but ici est de nous permettre de nous familiariser avec les différents outils mis à disposition en dans la mini usine. ceci comprend donc l’étude du Manuel d’utilisation et des données techniques, l’utilisation et la coordination entre le programme sur tablette et le bras robotique.
+L’intérêt de ce cours porte sur les connaissances de base à s’imprégner en robotique et dans l’industrie automatisée.
+
+
+# Universal robots
+
+
+## Creation de repère outil
+![alt text](ExtraitDocUR.jpg)
+
+Afin de commencer le réglage, nous entrons dans l’onglet installation, général puis sélectionner PCO(TCP en anglais)
+En premier lieu, nous allons sur position puis mesurer ( Réglage coordonnées de l’outil grâce à 3 points espacé de 120° autour du point de réglage)
+En second temps, nous nous portons sur orientation pour son orientation de l’axe Z de l’outil
+Après réglage de l’axe Z par rapport au plan de base(pointe de l’outil situé vers le haut), nous lançons une vérification des déplacements.
+
+Explication II :
+Installation -> fonction -> plan -> prendre un plan a modifier puis l’éditer, on place le plan selon les besoins avec le repère 3D, après validation nous pouvons le tester en sélectionnant déplacement -> fonction -> nom du plan modifiée.
+
+
+## Creation de plan utilisateur 
+
+
+
+Nous allons créer un plan d'utilisateur sur un chemin de test, ce plan aura pour but de définir les point de passage d'un outil attachée au robot.
+
+pour ce faire, nous allons dans la rubrique xxxx, puis on fait les manipulation suivantes:
+
+
+
+## Suivi d'un trajectoire
+
+le chemin se fait selon le plan suivant:
+
+![alt text](20241015_111209.jpg)
 
 
 
@@ -19,11 +57,11 @@ Ces 2 robot, construit par fanuc, sont utilisée dans la mini usine pour manipul
 
 
 ## Mise en route
-En toute logique, quand un opérateur arrive en usine eteint, les robots sont éteint, il faut alors les alummer grace aux contacteurs de puissances.
+Quand un opérateur arrive en usine , les robots sont éteint, il faut alors les alummer grace aux contacteurs de puissances.
 
 
 ## Manipulation
-Pour utiliser le robot, nous avons une ordinateur mobile a notre disposition, donc grace a ça, nous pouvons configurer le robot.
+Pour utiliser le robot, nous avons une ordinateur mobile a notre disposition, avec laquelle nous pouvons configurer le robot.
 
 L'opérateur place ca main dans la partie basse de la commande, appui a micourse l'ordinateur de bord, puis commence a faire ses reglages.
 
