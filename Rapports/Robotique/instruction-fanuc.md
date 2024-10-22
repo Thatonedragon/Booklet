@@ -16,7 +16,7 @@ Pour utiliser le robot, nous avons une ordinateur mobile a notre disposition, av
 L'opérateur place ca main dans la partie basse de la commande, appui a micourse l'ordinateur de bord, puis commence a faire ses reglages.
 
 ### Déplacement simple
-l'opérateur appuie a mi course l'ordinateur de bord, et appui sur reset, cela déverouille le déplacement grace au bouton en répere prédefinie en haut a droite de l'écran.
+l'opérateur appuie a mi course sur le capteur de pression l'ordinateur de bord, et appui sur reset, cela déverouille le déplacement grace au bouton en répere prédefinie en haut a droite de l'écran.
 
 Il doit appuyerr sur shift pour utiliser les boutons bleu, qui a l'occurence, sont les boutons de mouvement du robot.
 
