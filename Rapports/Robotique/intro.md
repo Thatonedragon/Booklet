@@ -12,3 +12,17 @@ Dans le cadre de notre cour de robotique a Unilasalle Amiens ex-ESIEE, par group
 Le but ici est de nous permettre de nous familiariser avec les différents outils mis à disposition en laboratoire robotique. Ceci comprend donc l’étude du Manuel d’utilisation et des données techniques, l’utilisation et la coordination entre le programme sur tablette et le bras robotique. 
 
 L’intérêt de ce cours porte sur les connaissances de base à s’imprégner en robotique et dans l’industrie automatisée. 
+
+# Présentation robot 6 axes
+
+# Les modes de déplacements
+
+## déplacements dans le repère joint
+
+## déplacements dans le repère world
+
+## déplacements dans le repère user
+
+## déplacements dans le repère tool
+
+
