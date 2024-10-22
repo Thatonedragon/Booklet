@@ -1,21 +1,11 @@
 ---
 layout: default
 nav_order: 2
-title: Rapport Robotique
-parent: Rapports
+title: instruction utilisation Fanuc
+parent: presentation fanuc
 ---
-# Universal robots Préhenseur ventouse
 
 
-
-
-
-
-
-# Fanuc M-10iA et M-710ic
-
-## introduction
-Ces 2 robot, construit par fanuc, sont utilisée dans la mini usine pour manipuler les boites rempli et de les ranger dans des cartons.
 
 
 ## Mise en route
