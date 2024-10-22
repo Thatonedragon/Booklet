@@ -55,4 +55,13 @@ Axes : 6 axes
 Précision : ± 0,04 mm
 Applications courantes : assemblage, emballage, chargement/déchargement de machines, palettisation, manipulation de matériaux, etc.
 Avantages : le CRX-10iA est conçu pour être facile à programmer, même pour des utilisateurs novices, grâce à son interface intuitive. Il offre une sécurité avancée avec des capteurs qui permettent au robot de s'arrêter en cas de contact avec un humain. Il peut être intégré dans des environnements collaboratifs sans nécessiter de cages de sécurité.
+
+
 Ces deux robots sont spécialisés pour des applications légères, avec l'ER-4iA se concentrant sur la précision dans les espaces restreints et le CRX-10iA permettant une collaboration sécurisée avec les opérateurs humains.
+
+
+# Le teach pendant
+
+![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc.png "Le titre de mon image")
+
+![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc2.png "Le titre de mon image")
