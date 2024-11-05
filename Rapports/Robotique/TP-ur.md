@@ -17,7 +17,7 @@ le chemin se fait selon le plan suivant:
 
 
 
-![Texte alternatif](./20241015_111209.jpg "Le titre de mon image")
+![Texte alternatif](./photo/20241015_111209.jpg "Le titre de mon image")
 
 C'est trajectoire doivent être réaliser sans que le robot s'arrete et sans saccade pour cela il faut réaliser touts les déplacements en déplacement "p". 
 
