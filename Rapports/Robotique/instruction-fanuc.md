@@ -2,7 +2,8 @@
 layout: default
 nav_order: 1
 title: instruction utilisation Fanuc
-parent: presentation fanuc
+parent: Presentation Fanuc
+grand_parent: Rapport robotique
 ---
 
 

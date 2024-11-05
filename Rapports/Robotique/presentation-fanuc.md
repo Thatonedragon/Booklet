@@ -2,7 +2,7 @@
 layout: default
 nav_order: 3
 title: Presentation Fanuc
-parent: Rapports
+parent: Rapport robotique
 has_children: true
 ---
 
