@@ -7,8 +7,6 @@ grand_parent: Rapport robotique
 grand_grand_parent: Rapports
 ---
 
-
-
 ## Suivi d'un trajectoire
 
 Le sujet de TP est un suivi de trajectoire avec un plan qui sera déplacer par la suite.
