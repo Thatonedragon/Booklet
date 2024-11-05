@@ -21,7 +21,7 @@ l'opérateur appuie a mi course l'ordinateur de bord, et appui sur reset, cela d
 Il doit appuyerr sur shift pour utiliser les boutons bleu, qui a l'occurence, sont les boutons de mouvement du robot.
 
 ### Déplacement programmée
-Pour crée un programme il faudra ce rendre sur le menu select puis apuier sur F2[create]
+Pour créer un programme il faudra ce rendre sur le menu select puis apuier sur F2[create]
 un fois le programme crée et nommé il suffira de selectioner EDIT afin d'écrire notre programme ,Il faudra dans un premier temps inserer des ligne en appuiant sur F5(insert)
 Pour ajouter une ligne il faudra simplement déplacer le robot ,une fois au bonne position il faudra faire next puis F1 (point) et choisir le mouvement ,ici on a le chois entre Joint ou Linear 
 
