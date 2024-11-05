@@ -2,7 +2,7 @@
 layout: default
 nav_order: 2
 title: Presentation UR-10
-parent: Rapports
+parent: Rapport robotique
 has_children: true
 ---
 

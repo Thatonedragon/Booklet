@@ -3,6 +3,8 @@ layout: default
 nav_order: 2
 title: TP ur
 parent: Presentation UR-10
+grand_parent: Rapport robotique
+grand_grand_parent: Rapports
 ---
 
 
