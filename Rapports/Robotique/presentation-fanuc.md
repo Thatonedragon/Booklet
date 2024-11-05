@@ -1,7 +1,7 @@
 ---
 layout: default
-nav_order: 1
-title: Présentation Fanuc
+nav_order: 3
+title: Presentation Fanuc
 parent: Rapports
 ---
 

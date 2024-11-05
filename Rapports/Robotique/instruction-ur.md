@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 2
+nav_order: 1
 title: instruction utilisation UR-10
 parent: Presentation UR-10
 ---
