@@ -1,12 +1,16 @@
 ---
 layout: default
 nav_order: 2
-title: TP Fanuc
-parent: Presentation Fanuc M- 710ic
+title: Exercice entrainement Fanuc
+parent: Presentation Fanuc M-710ic
 grand_parent: Rapport robotique
 grand_grand_parent: Rapports
 ---
 
-# Creation de Programme
+# l'entrainement en question
+Pour nous familiariser avec les commandes et mouvements des fanuc, nous avons collaborée avec un autre groupe de TP pour inserer les boites de rangement dans le carton.
 
-Pour créer un programme sur un fanuc, nous nous rendons dans le menu pour programmer 
+la complexité de cet exercice se trouve dans la communication opérateur, et la facilité de maniment des commandes.
+
+<video controls src="./photo/Fanuc-Ratage.mp4" title="Title"></video>
+<video controls src="./photo/Fanuc-hesitation.mp4" title="Title"></video>
