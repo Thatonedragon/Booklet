@@ -18,6 +18,7 @@ Applications courantes : assemblage, emballage, palettisation, vissage, soudage 
 Avantages : facile à programmer, flexible, sécurisé pour les environnements collaboratifs, adapté aux petites et moyennes entreprises. Il peut être mis en service sans barrière de sécurité dans certaines applications, grâce à ses fonctions de sécurité intégrées.
 Ces trois robots couvrent un large éventail d'applications industrielles, allant des tâches légères et collaboratives avec l'UR-10 aux tâches plus lourdes avec les robots Fanuc.
 
+![Texte alternatif](/Rapports/Robotique/photo/UR10-e.jpg "Le titre de mon image")
 
 ## introduction
 
@@ -25,3 +26,4 @@ Ces trois robots couvrent un large éventail d'applications industrielles, allan
 
 
 
+   

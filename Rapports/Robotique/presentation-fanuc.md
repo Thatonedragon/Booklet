@@ -22,6 +22,8 @@ Précision : ± 0,03 mm
 Applications courantes : manutention de matériaux, assemblage, emballage, palettisation, test de qualité, etc.
 Avantages : grande vitesse, répétabilité élevée, faible encombrement, ce qui en fait une solution idéale pour des tâches nécessitant une haute précision dans des espaces restreints.
 
+![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20M-10iA.jpg "Le titre de mon image")
+
 ## Fanuc M710ic
 
 Le Fanuc M-710iC est un robot industriel polyvalent, capable de gérer des charges plus importantes, souvent utilisé dans des environnements de production diversifiés. Il existe en plusieurs variantes en fonction des besoins (longue portée, haute charge, etc.). Voici ses caractéristiques générales :
@@ -32,6 +34,8 @@ Axes : 6 axes
 Précision : ± 0,04 mm
 Applications courantes : soudage, peinture, palettisation, enlèvement de matière, usinage, etc.
 Avantages : structure compacte et rigide, idéale pour des opérations lourdes et complexes avec une portée longue et une grande capacité de charge.
+
+![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20M710ic.jpg "Le titre de mon image")
 
 # Fanuc ER-4iA et Fanuc CRX-10iA
 
@@ -46,6 +50,8 @@ Précision : ± 0,01 mm
 Applications courantes : manipulation de petites pièces, assemblage, emballage, test de produits électroniques, etc.
 Avantages : extrêmement compact et léger, avec une grande flexibilité pour les tâches de précision dans des espaces réduits. Il est souvent utilisé dans les secteurs de l'électronique et des biens de consommation.
 
+![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20ER-4iA.jpg "Le titre de mon image")
+
 ## Fanuc CRX-10iA
 
 Le Fanuc CRX-10iA est un robot collaboratif (cobot) conçu pour travailler en toute sécurité aux côtés des humains. Il est parfait pour des applications où la collaboration homme-robot est essentielle. Ce modèle fait partie de la gamme de cobots de Fanuc, connue pour sa facilité d’utilisation et sa sécurité. Voici ses caractéristiques principales :
@@ -59,6 +65,8 @@ Avantages : le CRX-10iA est conçu pour être facile à programmer, même pour d
 
 
 Ces deux robots sont spécialisés pour des applications légères, avec l'ER-4iA se concentrant sur la précision dans les espaces restreints et le CRX-10iA permettant une collaboration sécurisée avec les opérateurs humains.
+
+![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20CRX-10iA.jpg "Le titre de mon image")
 
 
 # Le teach pendant
