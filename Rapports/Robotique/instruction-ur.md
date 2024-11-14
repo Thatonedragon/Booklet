@@ -46,9 +46,15 @@ Après réglage de l’axe Z par rapport au plan de base(pointe de l’outil sit
 
 ## création du plan 
 
-Explication II :
-Installation -> fonction -> plan -> prendre un plan a modifier puis l’éditer, on place le plan selon les besoins avec le repère 3D, après validation nous pouvons le tester en sélectionnant déplacement -> fonction -> nom du plan modifiée.
+Pour crée un plan, il faut suivre les étapes suivantes:
 
+* Installation : Accédez au menu Fonction.
+* Sélection du plan : Dans le menu Plan, choisissez le plan à modifier et ouvrez-le en mode édition ou crées un nouveau plan.
+* Positionnement : Placez le plan en utilisant le repère 3D pour ajuster sa position selon les besoins, puis validez les modifications.
+* Test : Allez dans Déplacement > Fonction > sélectionnez le nom du plan modifié pour tester les ajustements effectués.
+Cette méthode permet de configurer, positionner et tester les modifications d'un plan de manière structurée.
+
+Cette approche permet de positionner et de vérifier facilement les modifications d'un plan en fonction des spécifications.
 
 ## Creation de plan utilisateur 
 
