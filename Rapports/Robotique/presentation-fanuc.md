@@ -22,7 +22,7 @@ Précision : ± 0,03 mm
 Applications courantes : manutention de matériaux, assemblage, emballage, palettisation, test de qualité, etc.
 Avantages : grande vitesse, répétabilité élevée, faible encombrement, ce qui en fait une solution idéale pour des tâches nécessitant une haute précision dans des espaces restreints.
 
-![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20M-10iA.jpg "Le titre de mon image")
+![Texte alternatif](./photo/Fanuc%20M-10iA.jpg "Le titre de mon image")
 
 ## Fanuc M710ic
 
@@ -35,7 +35,7 @@ Précision : ± 0,04 mm
 Applications courantes : soudage, peinture, palettisation, enlèvement de matière, usinage, etc.
 Avantages : structure compacte et rigide, idéale pour des opérations lourdes et complexes avec une portée longue et une grande capacité de charge.
 
-![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20M710ic.jpg "Le titre de mon image")
+![Texte alternatif](./photo/Fanuc%20M710ic.jpg "Le titre de mon image")
 
 # Fanuc ER-4iA et Fanuc CRX-10iA
 
@@ -50,7 +50,7 @@ Précision : ± 0,01 mm
 Applications courantes : manipulation de petites pièces, assemblage, emballage, test de produits électroniques, etc.
 Avantages : extrêmement compact et léger, avec une grande flexibilité pour les tâches de précision dans des espaces réduits. Il est souvent utilisé dans les secteurs de l'électronique et des biens de consommation.
 
-![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20ER-4iA.jpg "Le titre de mon image")
+![Texte alternatif](./photo/Fanuc%20ER-4iA.jpg "Le titre de mon image")
 
 ## Fanuc CRX-10iA
 
@@ -66,7 +66,7 @@ Avantages : le CRX-10iA est conçu pour être facile à programmer, même pour d
 
 Ces deux robots sont spécialisés pour des applications légères, avec l'ER-4iA se concentrant sur la précision dans les espaces restreints et le CRX-10iA permettant une collaboration sécurisée avec les opérateurs humains.
 
-![Texte alternatif](/Rapports/Robotique/photo/Fanuc%20CRX-10iA.jpg "Le titre de mon image")
+![Texte alternatif](./photo/Fanuc%20CRX-10iA.jpg "Le titre de mon image")
 
 
 # Le teach pendant
@@ -76,10 +76,10 @@ Le teach pendant (ou pupitre de commande) est l'interface de contrôle principal
 L'interface est organisée en plusieurs sections et onglets pour accéder facilement aux programmes, aux configurations de mouvement, aux diagnostics et aux paramètres d'E/S (entrées et sorties).
 
 Le teach pendant Fanuc est équipé de boutons permettant de déplacer les axes du robot en mode manuel (ou mode jog). Ces boutons facilitent le positionnement du robot dans des repères spécifiques (joint, world, tool, user).
-![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc.png "Le titre de mon image")
+![Texte alternatif](./photo/teach-fanuc.png "Le titre de mon image")
 
 Les boutons d’arrêt d’urgence, de sécurité et de validation sont aussi intégrés pour une utilisation sécurisée. Ils permettent d’arrêter le robot immédiatement en cas d’urgence.
-![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc2.png "Le titre de mon image")
+![Texte alternatif](./photo/teach-fanuc2.png "Le titre de mon image")
 
 ## Mode "Teach" et "Playback" :
 

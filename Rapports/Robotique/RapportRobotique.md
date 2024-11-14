@@ -57,7 +57,7 @@ Ils disposent souvent d’interfaces conviviales et d'outils de simulation, ce q
 
 Les déplacements dans le repère joint (ou repère articulé) font référence à une méthode de contrôle du mouvement d'un robot où chaque articulation ou axe du robot est déplacé indépendamment des autres. Ce mode de déplacement est souvent utilisé en programmation et manipulation de robots à plusieurs axes (comme les robots à 6 axes), notamment pour ajuster les positions d'articulations spécifiques ou réaliser des mouvements complexes.
 
-![Texte alternatif](/Rapports/Robotique/photo/déplacement-repere-joint.png "Le titre de mon image")
+![Texte alternatif](./photo/deplacement-repere-joint.png "Le titre de mon image")
 
 Un robot est constitué de plusieurs axes articulés (par exemple 6 axes pour un robot à 6 axes), et chaque axe peut être commandé individuellement.
 Lorsqu'on parle de déplacement dans le repère joint, on fait référence au mouvement de chaque axe (ou joint) selon ses angles d'articulation.
@@ -67,7 +67,7 @@ Chaque articulation (axe) a un angle spécifique, généralement mesuré en degr
 
 Les déplacements dans le repère "world" (ou repère mondial) font référence à un mode de commande des robots industriels où les mouvements sont définis par rapport à un système de coordonnées global, appelé repère cartésien ou système de coordonnées monde. Ce repère est fixe et commun à toute l'installation robotique, et il sert de référence pour situer le robot et ses mouvements dans l'espace environnant.
 
-![Texte alternatif](/Rapports/Robotique/photo/déplacement-repere-world.png "Le titre de mon image")
+![Texte alternatif](./photo/deplacement-repere-world.png "Le titre de mon image")
 
 Le repère "world" est un système de coordonnées cartésien défini par trois axes : X, Y et Z. Il représente l'environnement global du robot, souvent avec l'origine placée à un point fixe de l'installation (comme au sol à la base du robot ou à un point de référence dans l’usine).
 
@@ -75,7 +75,7 @@ Le repère "world" est un système de coordonnées cartésien défini par trois 
 
 Les déplacements dans le repère "user" (ou repère utilisateur) permettent de définir un système de coordonnées personnalisé pour le robot. Contrairement aux repères fixes comme le repère world ou le repère tool, le repère user est créé par l'utilisateur en fonction des besoins spécifiques d'une tâche ou d'un environnement de travail particulier. Ce système de coordonnées permet d'adapter les mouvements du robot à une zone spécifique ou à un objet de référence, facilitant ainsi la programmation et l'exécution de certaines tâches.
 
-![Texte alternatif](/Rapports/Robotique/photo/déplacement-repere-user.png "Le titre de mon image")
+![Texte alternatif](./photo/deplacement-repere-user.png "Le titre de mon image")
 
 Le repère user est défini par l'utilisateur en spécifiant un point d'origine et des orientations pour les axes X, Y et Z. Cela permet de créer un cadre de référence adapté à un objet ou à une zone de travail spécifique.
 
@@ -83,7 +83,7 @@ Le repère user est défini par l'utilisateur en spécifiant un point d'origine 
 
 Les déplacements dans le repère "tool" (ou repère outil) font référence à un mode de commande dans lequel les mouvements du robot sont exprimés par rapport au Tool Center Point (TCP), c’est-à-dire le point central de l'outil monté à l'extrémité du bras du robot. Ce repère est attaché à l’outil et suit ses déplacements dans l’espace, ce qui permet de programmer les mouvements du robot en fonction de la position et de l’orientation de l’outil par rapport aux objets avec lesquels il interagit.
 
-![Texte alternatif](/Rapports/Robotique/photo/déplacement-repere-tool.png "Le titre de mon image")
+![Texte alternatif](./photo/deplacement-repere-tool.png "Le titre de mon image")
 
 Le repère tool est un système de coordonnées défini par l'utilisateur pour l'outil du robot, avec une origine située au Tool Center Point (TCP), généralement à l'extrémité de l'outil.
 Les axes de ce repère se déplacent avec l’outil. Le mouvement du robot est donc exprimé en termes de X, Y, Z (position du TCP) et de Rx, Ry, Rz (orientation de l'outil) par rapport à l’outil lui-même, plutôt que par rapport au repère global ou aux articulations.
