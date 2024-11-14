@@ -9,4 +9,4 @@ grand_grand_parent: Rapports
 
 # Creation de Programme
 
-Pour créer un programme sur un fanuc, nous nous rendons dans le menu
+Pour créer un programme sur un fanuc, nous nous rendons dans le menu pour programmer 
