@@ -2,7 +2,7 @@
 layout: default
 nav_order: 2
 title: Exercice entrainement Fanuc
-parent: Presentation Fanuc M-710ic
+parent: Presentation Fanuc
 grand_parent: Rapport robotique
 grand_grand_parent: Rapports
 ---
