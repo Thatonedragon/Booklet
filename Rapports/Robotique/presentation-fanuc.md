@@ -71,7 +71,24 @@ Ces deux robots sont spécialisés pour des applications légères, avec l'ER-4i
 
 # Le teach pendant
 
+Le teach pendant (ou pupitre de commande) est l'interface de contrôle principale d'un robot industriel Fanuc, permettant à l'opérateur de programmer, surveiller et contrôler les mouvements et les tâches du robot de manière intuitive. Ce dispositif portable se connecte directement au contrôleur du robot et offre diverses fonctionnalités pour manipuler et configurer le robot en fonction des besoins de production.
 
+L'interface est organisée en plusieurs sections et onglets pour accéder facilement aux programmes, aux configurations de mouvement, aux diagnostics et aux paramètres d'E/S (entrées et sorties).
+
+Le teach pendant Fanuc est équipé de boutons permettant de déplacer les axes du robot en mode manuel (ou mode jog). Ces boutons facilitent le positionnement du robot dans des repères spécifiques (joint, world, tool, user).
 ![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc.png "Le titre de mon image")
 
+Les boutons d’arrêt d’urgence, de sécurité et de validation sont aussi intégrés pour une utilisation sécurisée. Ils permettent d’arrêter le robot immédiatement en cas d’urgence.
 ![Texte alternatif](/Rapports/Robotique/photo/teach-fanuc2.png "Le titre de mon image")
+
+## Mode "Teach" et "Playback" :
+
+* En mode teach, l’opérateur peut déplacer manuellement le robot pour enregistrer une série de points (positions) et d'actions, formant ainsi un programme de mouvement. L’opérateur guide physiquement le robot d’une position à une autre et enregistre chaque point, qui sera ensuite suivi en mode automatisé.
+
+* En mode playback, le robot exécute les mouvements programmés automatiquement selon les points définis en mode teach. Cela permet de vérifier la précision des déplacements avant de lancer le robot en production.
+
+
+Le teach pendant permet d’accéder à l’interface de programmation en langage TP (Teach Pendant), propre à Fanuc. Ce langage de haut niveau permet d’écrire des programmes pour contrôler les mouvements, les interactions avec des capteurs, et d’autres actions complexes.
+On peut y programmer des instructions de déplacement (MOVE, L MOVE pour les déplacements linéaires, J MOVE pour les déplacements en joint), des commandes conditionnelles (IF, THEN), des boucles (WHILE), et des instructions de manipulation des entrées/sorties (E/S) pour interagir avec d’autres dispositifs.
+
+Donc le teach pendant Fanuc est un outil central pour la programmation et la manipulation de robots industriels. Grâce à sa capacité à permettre le teach mode (programmation manuelle) et à intégrer des fonctions avancées de diagnostic et de sécurité, il simplifie grandement le travail des opérateurs. Le teach pendant permet une programmation rapide et précise, essentielle pour les applications industrielles où la flexibilité et la sécurité sont cruciales.
