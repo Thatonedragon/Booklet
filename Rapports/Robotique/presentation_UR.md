@@ -18,6 +18,7 @@ La gamme des cobots UR inclut plusieurs modèles aux caractéristiques différen
 # Universal robots 10 
 
 Le UR-10 est un cobot (robot collaboratif) développé par Universal Robots et est conçu pour travailler aux côtés des humains dans un environnement sécurisé.
+![Texte alternatif](./photo/UR10-e.jpg "Le titre de mon image")
 
 ## Caractéristiques principales :
 
@@ -42,10 +43,12 @@ Le UR-10 est un cobot (robot collaboratif) développé par Universal Robots et e
 Il peut être mis en service sans barrière de sécurité dans certaines applications, grâce à ses fonctions de sécurité intégrées.
 Ces trois robots couvrent un large éventail d'applications industrielles, allant des tâches légères et collaboratives avec l'UR-10 aux tâches plus lourdes avec les robots Fanuc.
 
-![Texte alternatif](./photo/UR10-e.jpg "Le titre de mon image")
+
 
 
 ## Préhenseur ventouse
+
+![Texte alternatif](./photo/system-ventouse.webp "Le titre de mon image")
 
 Le préhenser ventouse est un accessoire couramment utilisé avec le UR-10 dans des applications de manipulation d’objets. Fonctionnant par aspiration, il permet de :
 
