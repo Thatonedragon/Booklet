@@ -26,7 +26,7 @@ Le robot est ensuite déplacé autour de l'axe Z (ou un autre axe choisi), tout 
 
 Enfin, une rotation autour d'un second axe (souvent X ou Y) est effectuée, toujours en maintenant le TCP en place. Cela permet de finaliser la définition des décalages et des rotations de l'outil. Le robot enregistre la troisième position.
 
-![Texte alternatif](/Rapports/Robotique/photo/repère%203%20points.png "Le titre de mon image")
+![Texte alternatif](./photo/repère%203%20points.png "Le titre de mon image")
 
 ### Comment cela fonctionne
 En déplaçant l'outil et en le faisant tourner autour de points fixes (TCP), le robot peut calculer les décalages (translations) et les rotations nécessaires pour définir la position exacte du TCP et de l'orientation de l'outil par rapport à la bride du robot.
@@ -42,7 +42,7 @@ En premier lieu, nous allons sur position puis mesurer ( Réglage coordonnées d
 En second temps, nous nous portons sur orientation pour son orientation de l’axe Z de l’outil
 Après réglage de l’axe Z par rapport au plan de base(pointe de l’outil situé vers le haut), nous lançons une vérification des déplacements.
 
-![Texte alternatif](/Rapports/Robotique/photo/ExtraitDocUR.jpg "Le titre de mon image")
+![Texte alternatif](./photo/ExtraitDocUR.jpg "Le titre de mon image")
 
 ## création du plan 
 
