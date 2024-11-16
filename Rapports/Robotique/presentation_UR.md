@@ -18,6 +18,7 @@ La gamme des cobots UR inclut plusieurs modèles aux caractéristiques différen
 # Universal robots 10 
 
 Le UR-10 est un cobot (robot collaboratif) développé par Universal Robots et est conçu pour travailler aux côtés des humains dans un environnement sécurisé.
+
 ![Texte alternatif](./photo/UR10-e.jpg "Le titre de mon image")
 
 ## Caractéristiques principales :
