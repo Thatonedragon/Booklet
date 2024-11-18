@@ -74,11 +74,12 @@ En combinant des trajectoires en cercle et des trajectoires linéaires, il est p
 
 # Suivi d'une barre métallique
 
-Se sujet est semblable au précédents hors le plan n'est plus perpendiculaire au saul et les tracés sont différents. 
+Se sujet est semblable au précédents hors le plan n'est plus perpendiculaire au sol et les tracés sont différents. 
 
 ![Texte alternatif](./photo/IMG20241105115317.jpg "Le titre de mon image")
 
 
-
+De la même manière que pour le suivi de ligne, il faut commencer par créer un nouveau plan en fonction de l'origine de la barre métalique et créer le repère outil. 
+Les trajectoires que doit suivre le robot sont alors déterminées par les points de passage fixé. Les types de déplacements restent identique avec des déplacements p et la fonction cercle lorsqe cela est nécéssaire.    
 
 
