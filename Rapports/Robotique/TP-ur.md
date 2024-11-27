@@ -21,21 +21,11 @@ A la suite de cela, il est nécéssaire de créer le repère outil.
 Il permet au robot de connaitre la position et l'orientation de l'outil avec lequel il va travailler. 
 
 
-
-# Suivi d'un tracé sur une feuille
-
 ## Explication des différents mode
-
-Le principe de se TP est de faire suivre à la pointe de l'outil du robot le tracé d'une feuille en papier posé sur un plan à l'horizontal. 
-
-Le chemin est le suivant:
-
-
-![Texte alternatif](./photo/IMG20241105111948.jpg "Le titre de mon image")
 
 Un programme peut-être créé via l'interface graphique pour faire répéter des déplacements au robot. 
 Ainsi plusieurs points de passage peuvent être déterminer à des endroits stratégique afin de faire suivre la trajectoire souhaité à l'outil. 
-On retrouve trois catégorie de déplacement possible entre les points de passage :
+On retrouve trois catégorie de déplacement possible entre les points de passages :
   - 'Déplacement P' correspond à un déplacement ou le robot va utiliser la trajectoire la plus courte en les deux points de passages  
   - 'Déplacement L' correspond à un déplacement linéaire  
   - 'Déplacement A' correspond à un déplacement en arc 
@@ -51,24 +41,23 @@ Ceux-ci ne sont disponible que dans les déplacements P.
 En utilisant qu'un seul type de déplacement il n'y a pas d'arret du robot et donc pas de secousse. 
 En effet, les secousse apparaissent notamment lors d'un changement de type de déplacement.
 
+
+# Suivi d'un tracé sur une feuille
+
+Le principe de se TP est de faire suivre à la pointe de l'outil du robot le tracé d'une feuille en papier posé sur un plan à l'horizontal. 
+
+Le chemin est le suivant:
+
+![Texte alternatif](./photo/IMG20241105111948.jpg "Le titre de mon image")
+
 ## Programmation du cobot
 
-
-
-# Suivi d'une barre métallique
-
-Se sujet est semblable au précédents hors le plan n'est plus perpendiculaire au saul et les tracés sont différents. 
-
-![Texte alternatif](./photo/IMG20241105115317.jpg "Le titre de mon image")
-
-
-
-
-<video width="320" height="240" controls>
-  <source src="./photo/VID20241022101134.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas les vidéos HTML5.
-</video>
-
+Pour suivre le tracé, il faut commencer par le plan sur lequel le robot va travailler puis le repère outil. 
+A la suite de cela, il faut créer un nouveau programme puis créer un déplacement p. 
+En débloquant le robot pour le bouger à la main, il faut amener l'outil à son point de départ.
+Enregistrer ce point puis l'amener à son deuxième points de passage, enregistrer et répeter l'opération sur tout les points ou le robot doit se rendre. 
+Si l'outil doit suivre une trajectoire en cercle un onglet permet de le faire en enregistrant trois points du cercle (le départ, l'arrivé et un point intermediaire). 
+A l'aide des trois points enregistré, le robot va déterminer le rayon du cercle et le reproduire.  
 
 
 <video width="320" height="240" controls>
@@ -76,9 +65,21 @@ Se sujet est semblable au précédents hors le plan n'est plus perpendiculaire a
   Votre navigateur ne supporte pas les vidéos HTML5.
 </video>
 
-
+En combinant des trajectoires en cercle et des trajectoires linéaires, il est possible de suivre toutes les trajectoires de la feuilles. 
 
 <video width="320" height="240" controls>
-  <source src="./photo/VID20241022101124.mp4" type="video/mp4">
+  <source src="./photo/VID20241022101134.mp4" type="video/mp4">
   Votre navigateur ne supporte pas les vidéos HTML5.
 </video>
+
+# Suivi d'une barre métallique
+
+Se sujet est semblable au précédents hors le plan n'est plus perpendiculaire au sol et les tracés sont différents. 
+
+![Texte alternatif](./photo/IMG20241105115317.jpg "Le titre de mon image")
+
+
+De la même manière que pour le suivi de ligne, il faut commencer par créer un nouveau plan en fonction de l'origine de la barre métalique et créer le repère outil. 
+Les trajectoires que doit suivre le robot sont alors déterminées par les points de passage fixé. Les types de déplacements restent identique avec des déplacements p et la fonction cercle lorsqe cela est nécéssaire.    
+
+
