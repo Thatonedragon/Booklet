@@ -37,14 +37,18 @@ Pour ajouter une ligne il faudra simplement déplacer le robot ,une fois au bonn
 IL faut depuis le menu select sectionner notre programme et appuies sur step puis appuier sur shift et FWR en même temps 
 
 
-### Utilisation du préhenseur ventouse
+### Utilisation du préhenseur
 
-menu IO > et robot puis on evite de toucher à "découplage" car ela fait tomber la pince de FANUC 710.
+Afin d'utiliser les préhenseur des robot, il faut se rendre dans le menu IO puis et robot, on peut donc maintenant utiliser les entrer et sortie des robot. Il faut surtout evité de toucher à "découplage" car ela fait tomber la pince de FANUC 710.
 
 Il y a 2 entrée sorties sur les IO par robot
 
 * Sur le robot 710ic, il faut changer les deux etats pour que le pince change d'état
 * Sur le robot 101iA, on peux controler les deux états des 2 groupes de ventouses, c'est a dire que les 2 groupes sont activable en même temps en ventouses
+
+### Communication entre le fanuc M-10iA et M710ic
+
+Pour faire travailler les deux robot ensemble, il faut pouvoir les faire communiquer. Cette comunication ce fait grâce au menu IO grâce aux variable "Fin_prise" et "Fin_depose" qui sont en entré et sortie des deux robot.
 
 ### exercice
 

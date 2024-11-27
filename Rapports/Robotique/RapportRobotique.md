@@ -43,12 +43,12 @@ Les robots 6 axes sont des robots industriels équipés de six degrés de libert
 
 Chaque axe permet un certain mouvement (rotation ou pivot), offrant ainsi au robot une grande flexibilité pour atteindre presque n'importe quelle position dans l'espace tridimensionnel.
 Les six axes sont généralement :
-Axe 1 : rotation de la base (rotation horizontale)
-Axe 2 : mouvement avant-arrière du bras
-Axe 3 : élévation ou descente du bras
-Axe 4 : rotation du poignet (rotation autour de l'axe principal du bras)
-Axe 5 : pivot du poignet (inclinaison)
-Axe 6 : rotation de l'outil ou de l'extrémité
+* Axe 1 : rotation de la base (rotation horizontale)
+* Axe 2 : mouvement avant-arrière du bras
+* Axe 3 : élévation ou descente du bras
+* Axe 4 : rotation du poignet (rotation autour de l'axe principal du bras)
+* Axe 5 : pivot du poignet (inclinaison)
+* Axe 6 : rotation de l'outil ou de l'extrémité
 
 ## Précision et répétabilité :
 
