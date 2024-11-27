@@ -44,22 +44,17 @@ Après réglage de l’axe Z par rapport au plan de base(pointe de l’outil sit
 
 ![Texte alternatif](./photo/ExtraitDocUR.jpg "Le titre de mon image")
 
-## création du plan 
+## création d'un plan 
 
 Pour crée un plan, il faut suivre les étapes suivantes:
 
 * Installation : Accédez au menu Fonction.
 * Sélection du plan : Dans le menu Plan, choisissez le plan à modifier et ouvrez-le en mode édition ou crées un nouveau plan.
 * Positionnement : Placez le plan en utilisant le repère 3D pour ajuster sa position selon les besoins, puis validez les modifications.
+Il est possible de s'aider des coordonnée du plan affiché sur la droite. Si les coordonnées de l'origine du plan ne sont pas connu, celui-ci peut être déterminés en débloquant le robot et en plaçant l'outil à l'origine souhaité par l'utilisateur.  
 * Test : Allez dans Déplacement > Fonction > sélectionnez le nom du plan modifié pour tester les ajustements effectués.
 Cette méthode permet de configurer, positionner et tester les modifications d'un plan de manière structurée.
 
 Cette approche permet de positionner et de vérifier facilement les modifications d'un plan en fonction des spécifications.
 
-## Creation de plan utilisateur 
 
-
-
-Nous allons créer un plan d'utilisateur sur un chemin de test, ce plan aura pour but de définir les point de passage d'un outil attachée au robot.
-
-pour ce faire, nous allons dans la rubrique xxxx, puis on fait les manipulation suivantes:
