@@ -27,7 +27,11 @@ Plusieur sujet sont traitée sur cette linge :
 Et encore quelques autres sujets.
 
 Aujourd'hui, la ligne possédde 2 fanucs (M-10iA et M-710iC), 2 UR (UR-10) et 1 ABB (GOFA)
-ces robots sont tous reliée sur la ligne par des convoyeur et des capteurs, qui sont tous interfacée par une automate siemenes dans l'amoire principale
+ces robots sont tous reliée sur la ligne par des convoyeur et des capteurs, qui sont tous interfacée par une automate siemens dans l'amoire principale a l'entrée de la Mini-Usine.
+
+pour allumer la Mini Usine, voici une tutoriel d'opération basique.
+
+[Allez a la mise en opération](./Mise-En-Operation.html){: .btn .btn-purple }
 
 
 
