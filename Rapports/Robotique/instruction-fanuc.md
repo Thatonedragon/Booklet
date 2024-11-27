@@ -39,7 +39,7 @@ IL faut depuis le menu select sectionner notre programme et appuies sur step pui
 
 ### Utilisation du préhenseur
 
-menu IO > et robot puis on evite de toucher à "découplage" car ela fait tomber la pince de FANUC 710.
+Afin d'utiliser les préhenseur des robot, il faut se rendre dans le menu IO puis et robot, on peut donc maintenant utiliser les entrer et sortie des robot. Il faut surtout evité de toucher à "découplage" car ela fait tomber la pince de FANUC 710.
 
 Il y a 2 entrée sorties sur les IO par robot
 
