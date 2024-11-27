@@ -20,7 +20,7 @@ Le cours de traitement d'images s'interesse a sujet de la detection d'elements d
 //a ameiliorer
 
 
-Dans le cadre des TP, nous allons découvrir l'outils OpenCV, une librairie C++ et Python, qui nous permettra d'exoploiter de maniere accelerérée les algorithmes vue dans le cours magistral
+Dans le cadre des TP, nous allons découvrir l'outils OpenCV, une librairie C++ et Python, qui nous permettra d'exoploiter de maniere accelerérée les algorithmes vue dans le cours magistral.
 Au cours de 3 TPs, nous allons voir comment appliquer ses outils dans des applications d'analyse.
 
 TP n°1 traite la detection d'elements specifique dans une image

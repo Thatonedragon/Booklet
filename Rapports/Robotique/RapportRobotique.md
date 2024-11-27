@@ -13,6 +13,24 @@ Le but ici est de nous permettre de nous familiariser avec les différents outil
 
 L’intérêt de ce cours porte sur les connaissances de base à s’imprégner en robotique et dans l’industrie automatisée. 
 
+
+# Présentation de la Mini-Usine
+
+Depuis l'inauguration de la Mini-Usine, la ligne ne cesse de s'ammeliorer, c'est pourquoi on vous présente la mini usine comment elle est a ce jour.
+Plusieur sujet sont traitée sur cette linge :
+* Cobotique
+* Robotique
+* Qualité vision
+* 4.0
+* sécurité
+
+Et encore quelques autres sujets.
+
+Aujourd'hui, la ligne possédde 2 fanucs (M-10iA et M-710iC), 2 UR (UR-10) et 1 ABB (GOFA)
+ces robots sont tous reliée sur la ligne par des convoyeur et des capteurs, qui sont tous interfacée par une automate siemenes dans l'amoire principale
+
+
+
 # Présentation robot 6 axes
 
 Les robots 6 axes sont des robots industriels équipés de six degrés de liberté, ce qui leur permet d'avoir une grande flexibilité dans leurs mouvements et de réaliser une large gamme de tâches complexes, ils sont très populaires dans divers secteurs industriels pour des applications nécessitant précision, souplesse et rapidité.
@@ -87,3 +105,4 @@ Les déplacements dans le repère "tool" (ou repère outil) font référence à 
 
 Le repère tool est un système de coordonnées défini par l'utilisateur pour l'outil du robot, avec une origine située au Tool Center Point (TCP), généralement à l'extrémité de l'outil.
 Les axes de ce repère se déplacent avec l’outil. Le mouvement du robot est donc exprimé en termes de X, Y, Z (position du TCP) et de Rx, Ry, Rz (orientation de l'outil) par rapport à l’outil lui-même, plutôt que par rapport au repère global ou aux articulations.
+
