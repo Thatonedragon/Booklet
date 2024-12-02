@@ -63,7 +63,7 @@ x,y = img.shape[:2]
 print(f" taille de l'image x:{x} y:{y}")
 
 ```
-![alt text](./Assets/GE141002.bmp)
+![alt text](./Assets/TP1/GE141002.bmp)
 
 ```
  taille de l'image x:572 y:768
@@ -85,7 +85,7 @@ rest, img2 = cv2.threshold(img,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
 print(f"seuil:{rest}")
 cv2.imshow("Traitee", img2)
 ```
-![alt text](./Assets/Q3.1.png)
+![alt text](./Assets/TP1/Q3.1.png)
 
 ```
 seuil:101.0
@@ -101,7 +101,7 @@ img3 = cv2.morphologyEx(img2,cv2.MORPH_OPEN,el_struct)
 cv2.imshow("Apres Ouverture", img3)
 cv2.imwrite("Q3.2.png", img3)
 ```
-![alt text](./Assets/Q3.2.png)
+![alt text](./Assets/TP1/Q3.2.png)
 
 # Question 3.3
 
@@ -110,7 +110,7 @@ img4 = cv2.morphologyEx(img3,cv2.MORPH_CLOSE,el_struct)
 
 cv2.imshow("Apres Fermeture", img4)
 ```
-![alt text](./Assets/Q3.3.png)
+![alt text](./Assets/TP1/Q3.3.png)
 
 
 # Question 3.4
@@ -128,7 +128,7 @@ img5 =cv2.drawContours(img4, Granulats, -1, 125, 5)
 
 cv2.imshow("Contours",img5)
 ```
-![alt text](./Assets/Q3.5.png)
+![alt text](./Assets/TP1/Q3.5.png)
 
 # Question 3.6 
 ```python
@@ -185,4 +185,4 @@ print(f"Air moyen des granulats:{air_moyen} pixels")
 cv2.imshow("Contours",img6)
 cv2.imwrite("Q3.7.png", img6)
 ```
-![alt text](./Assets/Q3.7.png)
+![alt text](./Assets/TP1/Q3.7.png)

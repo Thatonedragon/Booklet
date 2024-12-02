@@ -29,10 +29,10 @@ TP n°1 traite la detection d'elements specifique dans une image
 
 TP n°2 traite la detection de texte
 
-<button type="button" class="btn" disabled>Encours de construction</button>
+[Allez au TP2](./rapportTP2.html){: .btn .btn-purple }
 
 
 TP n°3 traite la detection d'une bille rouge sur une vidéo
 
-<button type="button" class="btn" disabled>Encours de construction</button>
+[Allez au TP3](./rapportTP3.html){: .btn .btn-purple }
 
