@@ -4,8 +4,14 @@ nav_order: 1
 title: TP1
 parent: Rapport Traitement Images
 ---
+# TP 1 - Détection de granulats de caoutchouc dans une image de béton
 
-# Question 1
+## Introduction
+Le traitement d'image permet un suivi de qualité d'un produit, notament lors d'analyses non destructives.
+Dans ce Tp , après une courte introduction des differents libraries, nous allons essayer d'analyser une image de béton, pour en déterminer le taux de caoutchouc, cela permettra ensuite de déduire si le produit final est bon.
+
+
+## Question 1
 ```python
 def soldes(prix):
     a = prix * 0.8
@@ -22,7 +28,7 @@ Sortie:
 ```
 les prix soldés sont de (104.0, 78.0, 65.0)
 ```
-# Question 2
+## Question 2
 
 ```python
 tableau = np.array(np.random.randint(0,10,size=(3,4)))
@@ -45,7 +51,7 @@ Collone:
 Ligne:
 [20 29 27]
 ```
-# Question 3
+## Question 3
 
 La fonction WaitKey met en pause l'éxecution du programme pendant une durée déterminé en paramètre (en miliseconces). Pendant cette pause, losqu'une touche du clavier est pressée, ça retourne son code ASCII.
 
@@ -53,7 +59,7 @@ Lorsque le paramètre vaut 0, on met en pause indéfiniment le programme jusqu'a
 
 La valeur de retour est le code ASCII de la touche pressée sinon la valeur retournée est -1 (c'est a dire si le temps est écoulée).
 
-# Question 4
+## Question 4
 
 
 L'image est un tableau de 2 dimension, avec les valeurs de niveau de gris dans les pixels respective au coordonées x y.
@@ -74,7 +80,7 @@ print(f" taille de l'image x:{x} y:{y}")
  taille de l'image x:572 y:768
 ```
 
-#  Question 5
+##  Question 5
 
 1) Opération de seuillage
 
@@ -87,7 +93,7 @@ print(f" taille de l'image x:{x} y:{y}")
 La partie qui suit ne traite pas de question du TP1, mais il montre le code étape par étape jusqu'a la fin du TP1
 
 
-# Partie 3.1
+## Partie 3.1
 
 ```python
 rest, img2 = cv2.threshold(img,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
@@ -100,7 +106,7 @@ cv2.imshow("Traitee", img2)
 seuil:101.0
 ```
 
-# Partie 3.2
+## Partie 3.2
 ```python
 el_struct = cv2.getStructuringElement(cv2.MORPH_RECT,(6,6))
 
@@ -112,7 +118,7 @@ cv2.imwrite("Q3.2.png", img3)
 ```
 ![alt text](./Assets/TP1/Q3.2.png)
 
-# Partie 3.3
+## Partie 3.3
 
 ```python
 img4 = cv2.morphologyEx(img3,cv2.MORPH_CLOSE,el_struct)
@@ -122,7 +128,7 @@ cv2.imshow("Apres Fermeture", img4)
 ![alt text](./Assets/TP1/Q3.3.png)
 
 
-# Partie 3.4
+## Partie 3.4
 ```python
 Granulats, _ = cv2.findContours(img4, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 nb_granulats = len(Granulats)
@@ -131,7 +137,7 @@ print(f"Nombre de Granulats :{nb_granulats}")
 ```
 Nombre de Granulats : 15
 ```
-# Partie 3.5
+## Partie 3.5
 ```python
 img5 =cv2.drawContours(img4, Granulats, -1, 125, 5)
 
@@ -139,7 +145,7 @@ cv2.imshow("Contours",img5)
 ```
 ![alt text](./Assets/TP1/Q3.5.png)
 
-# Partie 3.6 
+## Partie 3.6 
 ```python
 air_total = 0
 for i, contour in enumerate(Granulats):
@@ -169,7 +175,7 @@ Granulat 14: Air en Pixel = 21.0
 Granulat 15: Air en Pixel = 24543.5
 Air moyen des granulats:3816.9666666666667 pixels
 ```
-# Partie 3.7
+## Partie 3.7
 
 ```python
 img6 = cv2.cvtColor(img5,cv2.COLOR_GRAY2BGR)
