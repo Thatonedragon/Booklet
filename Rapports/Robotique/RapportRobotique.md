@@ -16,23 +16,23 @@ L’intérêt de ce cours porte sur les connaissances de base à s’imprégner 
 
 # Présentation de la Mini-Usine
 
-Depuis l'inauguration de la Mini-Usine, la ligne ne cesse de s'ammeliorer, c'est pourquoi on vous présente la mini usine comment elle est a ce jour.
+Depuis l'inauguration de l'usine école, la ligne ne cesse de s'ammeliorer, c'est pourquoi on vous présente la mini usine comment elle est a ce jour.
 Plusieur sujet sont traitée sur cette linge :
 * Cobotique
 * Robotique
+* AGV
 * Qualité vision
 * 4.0
 * sécurité
 
 Et encore quelques autres sujets.
 
-Aujourd'hui, la ligne possédde 2 fanucs (M-10iA et M-710iC), 2 UR (UR-10) et 1 ABB (GOFA)
+Aujourd'hui, la ligne possédde 2 fanucs (M-10iA et M-710iC), 2 UR (UR-10) ,1 ABB (GOFA) et 2 MIR (AGV)
 ces robots sont tous reliée sur la ligne par des convoyeur et des capteurs, qui sont tous interfacée par une automate siemens dans l'amoire principale a l'entrée de la Mini-Usine.
 
 pour allumer la Mini Usine, voici une tutoriel d'opération basique.
 
 [Allez a la mise en opération](./Mise-En-Operation.html){: .btn .btn-purple }
-
 
 
 # Présentation robot 6 axes
