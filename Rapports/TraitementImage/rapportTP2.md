@@ -13,7 +13,7 @@ Le traitement d'image a son utilité dans la reconnaisance de charactére automa
 Dans ce TP, nous avons une image d'une étiquette de brique de lait, et nous allons extraire la premiere chiffre de cette image. La question finale est de savoir si c'est une
 date qui commence avec un chiffre 1 ou pas.
 
-## Le calcul des projections 
+## Code et explications
 
 
 ```python
@@ -56,7 +56,35 @@ Bordure_Droite = np.where(projection_colonne > valeur_seuil_front_colonne)[0][-1
 #En ayant ces 4 valeurs, on peux retrouver les 4 coins du rectangle
 #Peut etre faire mieux plus tard quand l'image n'est pas réelement droit
 ``` 
+nous procédons ensuite au Découpe de la brique de lait qui se fait très simplement avec ces prochains lignes de code
+
+```python 
+
+Decoupage = img[Bordure_Gauche:Bordure_Droite, Bordure_Superieur:Bordure_Inferieur]
+
+cv2.imshow('Decoup', Decoupage)
 
 
+#decouper la date
+Decoupage_date = Decoupage[303:303+95 , 57:57+41]
+
+```
+
+## Question 6
+
+Tout depend de comment la photo est prise et si on peut toujours avoir la photo dans le même angle, même position sur l'image, cela implique impérativement d'avoir les briques de laits au même placement a chaque fois,
+dans un endroit a faible tolérance, et de les arreter, prendre la photo, puis de les relancer, dans un contexte de production, cela est très inéfficace, donc on peut preferer de prendre la photo dans l'elan du brique de lait, risquant une décalage, c'est pourquoi on doit reprendre les quateres cotés de la brique.
+
+Mais en plus, la methode otsu ne fonctionnera pas correctement, car il y aura beacoup de noir, qui nous retorunera un filtre otsu non adaptée.
 
 
+## Question 7
+
+La taille des images de 1 sont differentes, cela empeche une comparaison entre les 2 images, la méthodologie utilisée ici est un rajout du nombre de lignes manquant depuis l'image a analyser, une balayage sur quelques lignes serais encore plus fiables si jamais on a pris le mauvais décalage (le 1 décalée trop décalée au lieu de super posée).
+
+## Question 8
+Si on travaillerai avec l'intégralité de la date, il vaudrai mieux faire un etalon de cette date entiere, l'imprimante imprimera toujour le même ecart entre les caracteres, donc il est probablement plus facile de comparer un tel etalon face a la photo, que de comparer chaque caratérer.
+et comme ennoncé dans la question précedente, on peux effectuer une legere balayage de quelques pixels pour s'assurer une bonne superposistion de l'etalon et l'image lors de la difference, on prendra la valeur la plus haute, et on devra definir une seuil de confiance plus faible en vue du nombre de pixel.
+
+## Question 9
+Un seul de décision nécésite de nombreuses test, avec 2 echantillions c'est completement absurde, cela pourrai introduire une seuil de confiance trop haute, alors qu'en réalité, nous pouvons avoir des imperfection sur l'étiquette
