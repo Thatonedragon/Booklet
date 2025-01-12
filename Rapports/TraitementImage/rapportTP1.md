@@ -16,6 +16,9 @@ def soldes(prix):
 retour = soldes(130)
 print(f"les prix soldés sont de {retour}")
 ```
+le nombre decimale a coté de l'opérateur "*" représente le pourcentage des valeurs
+
+Sortie:
 ```
 les prix soldés sont de (104.0, 78.0, 65.0)
 ```
@@ -30,7 +33,9 @@ print(np.sum(tableau,axis=0)) #0 est en collone, 1 ou -1 est en ligne
 print("Ligne:")
 print(np.sum(tableau,axis=-1)) #0 est en collone, 1 ou -1 est en ligne
 ```
+Nous utilisons la librairie numpy (renomée en np pour efficacité de code) pour créer le tableau de dimension 3x4, et nous la remplissont de valeurs aléatoires grace au fonction "randint". Les valeurs aléatoires ici sont compris entre 0 et 10
 
+Sortie:
 ```
 [[0 5 9 6]
  [6 8 9 6]
@@ -46,7 +51,7 @@ La fonction WaitKey met en pause l'éxecution du programme pendant une durée d�
 
 Lorsque le paramètre vaut 0, on met en pause indéfiniment le programme jusqu'a ce qu'une touche soit pressée.
 
-La valeur de retour est le code ASCII de la touche pressée sinon la valeur retournée est -1.
+La valeur de retour est le code ASCII de la touche pressée sinon la valeur retournée est -1 (c'est a dire si le temps est écoulée).
 
 # Question 4
 
@@ -78,7 +83,11 @@ print(f" taille de l'image x:{x} y:{y}")
 3) Opération de fermeture
 
 
-# Question 3.1
+# Hors questions
+La partie qui suit ne traite pas de question du TP1, mais il montre le code étape par étape jusqu'a la fin du TP1
+
+
+# Partie 3.1
 
 ```python
 rest, img2 = cv2.threshold(img,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
@@ -91,7 +100,7 @@ cv2.imshow("Traitee", img2)
 seuil:101.0
 ```
 
-# Question 3.2
+# Partie 3.2
 ```python
 el_struct = cv2.getStructuringElement(cv2.MORPH_RECT,(6,6))
 
@@ -103,7 +112,7 @@ cv2.imwrite("Q3.2.png", img3)
 ```
 ![alt text](./Assets/TP1/Q3.2.png)
 
-# Question 3.3
+# Partie 3.3
 
 ```python
 img4 = cv2.morphologyEx(img3,cv2.MORPH_CLOSE,el_struct)
@@ -113,7 +122,7 @@ cv2.imshow("Apres Fermeture", img4)
 ![alt text](./Assets/TP1/Q3.3.png)
 
 
-# Question 3.4
+# Partie 3.4
 ```python
 Granulats, _ = cv2.findContours(img4, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 nb_granulats = len(Granulats)
@@ -122,7 +131,7 @@ print(f"Nombre de Granulats :{nb_granulats}")
 ```
 Nombre de Granulats : 15
 ```
-# Question 3.5
+# Partie 3.5
 ```python
 img5 =cv2.drawContours(img4, Granulats, -1, 125, 5)
 
@@ -130,7 +139,7 @@ cv2.imshow("Contours",img5)
 ```
 ![alt text](./Assets/TP1/Q3.5.png)
 
-# Question 3.6 
+# Partie 3.6 
 ```python
 air_total = 0
 for i, contour in enumerate(Granulats):
@@ -160,7 +169,7 @@ Granulat 14: Air en Pixel = 21.0
 Granulat 15: Air en Pixel = 24543.5
 Air moyen des granulats:3816.9666666666667 pixels
 ```
-# Question 3.7
+# Partie 3.7
 
 ```python
 img6 = cv2.cvtColor(img5,cv2.COLOR_GRAY2BGR)
