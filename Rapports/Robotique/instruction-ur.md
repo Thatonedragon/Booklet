@@ -6,11 +6,11 @@ parent: Presentation UR-10
 grand_parent: Rapport robotique
 ---
 
-## Deplacement manuel du robot
+## Déplacement manuel du robot
 
 Par défaut, lorsque le cobot est allumé et à l'arrêt, ses articulations sont bloqués, ce qui empêche l'utilisateur de le déplacer. Derrière l'écran de contrôle se trouve un bouton central qui, lorsqu'il est enclenché, permet de libérer les freins et donc de déplacer le robot. Cela est utile pour les différents réglage expliquer à la suite. 
 
-## Creation de repère outil
+## Creétion du repère outil
 
 ### Objectif du réglage outil
 
