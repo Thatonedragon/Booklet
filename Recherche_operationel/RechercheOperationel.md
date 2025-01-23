@@ -1,10 +1,10 @@
 ---
 layout: default
 nav_order: 2
-title: Recherche operationel
+
 has_children: true
 ---
-
+<!--title: Recherche operationel -->
 
 # Cours recherche opérationelle
 
