@@ -7,6 +7,9 @@ grand_parent: Rapport robotique
 grand_grand_parent: Rapports
 ---
 
+Suite Nouveau Semestre
+{: .label .label-purple }
+
 # Robotguide
 
 Fanuc propose un logiciel de simulation et de programmation des robot executable sur windows.
@@ -33,5 +36,11 @@ On choisi le robot, pour l'exemple actuelle c'est le robot fanuc ER-4ia
 Ensuite on définie l'outils, dans notre cas, nous n'avons pas l'outil proposée par le systéme 
 
 ![alt text](photo/SANSEoat.png)
+
 ![alt text](photo/Pas_d_options.png)
+
+Nous n'avons pas d'outils spécifique 
+
 ![alt text](photo/Pas_additional_motion_groups.png)
+
+Et pas non plus de groupe de déplacement additionel
