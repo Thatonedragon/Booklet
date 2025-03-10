@@ -44,3 +44,4 @@ Nous n'avons pas d'outils spécifique
 ![alt text](photo/Pas_additional_motion_groups.png)
 
 Et pas non plus de groupe de déplacement additionel
+
