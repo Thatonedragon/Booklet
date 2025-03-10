@@ -1,12 +1,10 @@
 ---
 layout: default
-nav_order: 2
+nav_order: 4
 title: Presentation MiR
 parent: Rapport robotique
-has_children: true
+has_children: false
 ---
-
-
 # intro
 
 Les entrepôts deviennent de plus en plus grand, que ce soit en largeur, longeur, hauteur, leur volume est en croissance majeure. Les déplacement humain deviennent de moins en moins possible quand on essaie d'optimiser l'espace pour le stockage, c'est pourquoi on opte de plus en plus pour de la logistique automatisée.
