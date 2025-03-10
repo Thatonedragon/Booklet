@@ -7,6 +7,9 @@ grand_parent: Rapport robotique
 grand_grand_parent: Rapports
 ---
 
+Suite Nouveau Semestre
+{: .label .label-purple }
+
 # la consigne
 
 Le but de ce TP est de réaliser un palétisation et dépalétisation de manière automatique.
