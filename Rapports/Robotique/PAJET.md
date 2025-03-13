@@ -63,4 +63,4 @@ la deuxième utilisation ce fais via l'application, pour utiliser l'application 
 
 ## Noitce de montage
 
-<embed src="photo/Notice de montage du PAJET.pdf" type="application/pdf" width="100%" height="600px">
+<embed src="photo/Notice de montage du PAJET_compressed (1).pdf" type="application/pdf" width="100%" height="600px">
